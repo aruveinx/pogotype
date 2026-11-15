@@ -1,0 +1,34 @@
+{
+  "name": "pokemon-type-chart-tool",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "homepage": "https://aruveinx.github.io/pogotype/",
+  "engines": {
+    "node": "^24.15.0 || >=26.0.0"
+  },
+  "dependencies": {
+    "i18next": "27.1.2",
+    "i18next-browser-languagedetector": "8.3.0",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "react-i18next": "18.0.1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "10.4.2",
+    "@testing-library/react": "16.3.3",
+    "@vitejs/plugin-react": "6.3.0",
+    "jsdom": "31.0.1",
+    "sass": "1.108.2",
+    "vite": "8.3.8",
+    "vitest": "5.1.0"
+  },
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "test": "vitest run",
+    "test:site": "node --test tests/site.test.mjs",
+    "build": "vite build && node scripts/prerender.mjs",
+    "preview": "vite preview"
+  }
+}

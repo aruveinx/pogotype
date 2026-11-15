@@ -1,0 +1,23 @@
+{
+  "name": "Pokémon GO Type Effectiveness Tool",
+  "short_name": "Pokémon Type Tool",
+  "description": "Find Pokémon GO type weaknesses, resistances and counters. Compare attack and defense multipliers, search Pokémon, and copy in-game search strings.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#2c3e50",
+  "background_color": "#f9f9f9",
+  "icons": [
+    {
+      "src": "assets/icons/pogotype-logo-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/pogotype-logo-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
